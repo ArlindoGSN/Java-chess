@@ -14,4 +14,7 @@ public class Piece {
         return board;
     }
 
+    public void updatePosition(Position newPosition) {
+        this.position = newPosition;
+    }
 }

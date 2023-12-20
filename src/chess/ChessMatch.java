@@ -1,7 +1,7 @@
 package chess;
 
 import boardgame.Board;
-
+import chess.chessPieces.King;
 import chess.chessPieces.Rook;
 
 public class ChessMatch {
@@ -27,7 +27,12 @@ public class ChessMatch {
     }
 
     private void initialSetup() {
+
         placeNewPiece('b', 6, new Rook(board, Color.WHITE));
+        placeNewPiece('e', 8, new King(board, Color.BLACK));
+
+        placeNewPiece('c', 7, new Rook(board, Color.BLACK));
+        placeNewPiece('d', 8, new King(board, Color.BLACK));
     }
 
 }

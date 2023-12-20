@@ -17,16 +17,16 @@ public class Position {
         this.row = row;
     }
 
-    public int getColum() {
+    public int getColumn() { // Corrigido o nome do método
         return column;
     }
 
-    public void setColum(int column) {
+    public void setColumn(int column) { // Corrigido o nome do método
         this.column = column;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return row + " , " + column;
     }
 }
