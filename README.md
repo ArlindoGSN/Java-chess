@@ -5,8 +5,7 @@ Este é um projeto de jogo de xadrez implementado em Java, oferecendo uma experi
 ## Conceitos Utilizados
 
 Programação Orientada a Objetos em Java.
-Manipulação de Interfaces Gráficas com Swing.
-Estruturas de Dados e Algoritmos.
-Conceitos Avançados de Java.
+Manipulação de Interfaces.
+
 
 > O projeto foi desenvolvido durante o curso do professor Nelio Alves de Java Orientado a Objetos.
