@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
-import chess.chessPieces.*;
+import chess.Pieces.*;
 
 public class ChessMatch {
 
